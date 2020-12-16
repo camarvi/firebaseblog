@@ -17,7 +17,7 @@ export class PostComponent implements OnInit {
   } = {
     id : '1',
     titlePost : 'Post One',
-    contentPost : 'Hola Mundo',
+    contentPost : 'Hola Mundo gfdgdfgdfgdsfgdfgdfgd',
     imagePost : 'https://i.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U'
   }
 
