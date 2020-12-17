@@ -1,7 +1,14 @@
 <mat-toolbar color="primary">
-    <a routerLink="/" routerLinkActivate="active">ngBlog</a>
-    <a routerLink="/login" routerLinkActivate="active">Login</a>
-    <a routerLink="/admin" routerLinkActivate="active">Admin</a>
-    <a routerLink="/about" routerLinkActivate="active">About</a>
+    <a routerLink="/">{{ appName }}</a>
+    <span class="fill-remaining-space"></span>
+    <a routerLink="/login" routerLinkActivate="active">
+        <button mat-button>Login</button>
+    </a>
+    <a routerLink="/admin" routerLinkActivate="active">
+        <button mat-button>Admin</button>
+    </a>
+    <a routerLink="/about" routerLinkActivate="active">
+        <button mat-button>About</button>
+    </a>
 
 </mat-toolbar>
